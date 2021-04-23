@@ -1,0 +1,28 @@
+{
+  "name": "8",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app",
+    "clinic-test": "cd bin;node clinic_test.js;cd .."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "install": "^0.13.0",
+    "koa": "^2.13.1",
+    "koa-better-http-proxy": "^0.2.9",
+    "koa-body": "^4.2.0",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "mongodb": "^3.6.6",
+    "node-cache": "^5.1.2",
+    "npm": "^7.7.6",
+    "redis": "^3.0.2",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "util": "^0.12.3"
+  }
+}
