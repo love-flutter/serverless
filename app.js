@@ -3,10 +3,10 @@ const koaBody = require('koa-body');
 
 const app = new Koa();
 //const checkToken = require('./src/middleware/checkToken');
-const routerMiddleware = require('./src/middleware/router');
+const routerMiddleware = require('./middleware/router');
 //const backendRouter = require('./src/middleware/backendRouter');
-const logCenter = require('./src/middleware/logCenter');
-const security = require('./src/middleware/security');
+const logCenter = require('./middleware/logCenter');
+const security = require('./middleware/security');
 
 app.use(logCenter());
 app.use(security());
